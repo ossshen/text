@@ -1,0 +1,144 @@
+body
+{
+	margin: 0;
+}
+
+ul
+{
+	margin: 0;
+}
+
+#header
+{
+	background: rgba(0,0,0,0.1)
+}
+
+nav
+{
+	background: transparent;
+	height:50px;
+}
+
+#banner
+{
+	
+	background: rgba(0,0,0,0.1);
+	height:350px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+	
+}
+
+nav ul li,nav .logo
+{
+	display:inline-block;
+	line-height:50px;
+	margin-right:  20px;
+}
+
+
+nav ul li a
+{
+	line-height:50px;
+	text-decoration: none;
+	display: inline-block;
+	height: 50px;
+	color: #fff;
+}
+
+
+nav .logo
+{	
+    float: left;
+	line-height:25px;
+	padding-left: 20px;
+	position: relative;
+	top:  10px;
+
+}
+
+nav #home
+{
+	padding: 10px;
+	text-decoration: none;
+}
+
+#banner .inner
+{
+	max-width:350px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	color: white;
+}
+
+#banner .inner h1
+{
+	margin: 0;
+	padding:20px;
+	border-top: 1px solid white;
+	border-bottom:1px solid white;
+}
+
+.logo
+{
+	font-size: 20px;
+	font-weight: 700;
+    letter-spacing: 1px;
+		
+}
+
+.logo a
+{
+	color:#fff;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 30px;
+}
+
+.main-wrapper
+{
+	background:#444 url(../image/002.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center center;
+}
+
+
+#search-form
+{
+		float: left;
+}
+
+#header-search-box
+{
+	left: 50px;
+}
+
+
+#searchform button
+{
+	left:195px;
+	top:7px;
+
+}
+
+.btn-default
+{
+	color: #fff;
+}
+
+.row{
+	margin-right:-220px;
+	margin-left:-80px;
+}
